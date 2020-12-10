@@ -14,6 +14,9 @@ About Request Object
 
         // Hindi kukunin ung field.
         $request->except('img_filename');
+        
+        // Hindi kukunin ung field.
+        $request['name_ng_control_sa_blade'];
 ```
 ---
 Remember in OOP, you can pass a **whole object**  
