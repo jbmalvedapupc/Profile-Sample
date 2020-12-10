@@ -15,7 +15,7 @@ About Request Object
         // Hindi kukunin ung field.
         $request->except('img_filename');
         
-        // Hindi kukunin ung field.
+        // Value ng specific request property.
         $request['name_ng_control_sa_blade'];
 ```
 ---
