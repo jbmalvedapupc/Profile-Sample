@@ -13,9 +13,14 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ route('employees.index') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Employees</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('employees.create') }}">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>New Employees</span></a>
     </li>
 
 

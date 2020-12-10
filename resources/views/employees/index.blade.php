@@ -16,7 +16,8 @@
                         @foreach($employees as $employee)
                             <tr>
                                 <td>{{ $employee->id }}</td>
-                                <td>{{ $employee->full_name }}</td>
+                                {{-- Buong object ang ipinasa --}}
+                                <td><a href="{{ route('employees.show', $employee) }}">{{ $employee->full_name }}</a></td>
                             </tr>
                         @endforeach
                     </tbody>
